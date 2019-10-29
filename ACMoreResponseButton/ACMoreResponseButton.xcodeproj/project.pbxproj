@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C163E7BE5A8374022A0C22B5 /* libPods-ACMoreResponseButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC124F0FDE7496B12E52B54E /* libPods-ACMoreResponseButton.a */; };
+		F486EE6023681FA700F11CE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F486EE5F23681FA700F11CE5 /* AppDelegate.m */; };
+		F486EE6323681FA700F11CE5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F486EE6223681FA700F11CE5 /* SceneDelegate.m */; };
+		F486EE6623681FA700F11CE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F486EE6523681FA700F11CE5 /* ViewController.m */; };
+		F486EE6923681FA700F11CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F486EE6723681FA700F11CE5 /* Main.storyboard */; };
+		F486EE6B23681FA800F11CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F486EE6A23681FA800F11CE5 /* Assets.xcassets */; };
+		F486EE6E23681FA800F11CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F486EE6C23681FA800F11CE5 /* LaunchScreen.storyboard */; };
+		F486EE7123681FA800F11CE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F486EE7023681FA800F11CE5 /* main.m */; };
+		F486EE7B23681FA800F11CE5 /* ACMoreResponseButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F486EE7A23681FA800F11CE5 /* ACMoreResponseButtonTests.m */; };
+		F486EE8623681FA800F11CE5 /* ACMoreResponseButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F486EE8523681FA800F11CE5 /* ACMoreResponseButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F486EE7723681FA800F11CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F486EE5323681FA700F11CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F486EE5A23681FA700F11CE5;
+			remoteInfo = ACMoreResponseButton;
+		};
+		F486EE8223681FA800F11CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F486EE5323681FA700F11CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F486EE5A23681FA700F11CE5;
+			remoteInfo = ACMoreResponseButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B19990E6D1DE2BCA67EC425 /* Pods-ACMoreResponseButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACMoreResponseButton.release.xcconfig"; path = "Target Support Files/Pods-ACMoreResponseButton/Pods-ACMoreResponseButton.release.xcconfig"; sourceTree = "<group>"; };
+		9F4CDC1E955668F1A491F962 /* Pods-ACMoreResponseButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACMoreResponseButton.debug.xcconfig"; path = "Target Support Files/Pods-ACMoreResponseButton/Pods-ACMoreResponseButton.debug.xcconfig"; sourceTree = "<group>"; };
+		AC124F0FDE7496B12E52B54E /* libPods-ACMoreResponseButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ACMoreResponseButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F486EE5B23681FA700F11CE5 /* ACMoreResponseButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACMoreResponseButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F486EE5E23681FA700F11CE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F486EE5F23681FA700F11CE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F486EE6123681FA700F11CE5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F486EE6223681FA700F11CE5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F486EE6423681FA700F11CE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F486EE6523681FA700F11CE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F486EE6823681FA700F11CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F486EE6A23681FA800F11CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F486EE6D23681FA800F11CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F486EE6F23681FA800F11CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F486EE7023681FA800F11CE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F486EE7623681FA800F11CE5 /* ACMoreResponseButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACMoreResponseButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F486EE7A23681FA800F11CE5 /* ACMoreResponseButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACMoreResponseButtonTests.m; sourceTree = "<group>"; };
+		F486EE7C23681FA800F11CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F486EE8123681FA800F11CE5 /* ACMoreResponseButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACMoreResponseButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F486EE8523681FA800F11CE5 /* ACMoreResponseButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACMoreResponseButtonUITests.m; sourceTree = "<group>"; };
+		F486EE8723681FA800F11CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F486EE5823681FA700F11CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C163E7BE5A8374022A0C22B5 /* libPods-ACMoreResponseButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486EE7323681FA800F11CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486EE7E23681FA800F11CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC539F57FCFE7FD935B065C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F4CDC1E955668F1A491F962 /* Pods-ACMoreResponseButton.debug.xcconfig */,
+				6B19990E6D1DE2BCA67EC425 /* Pods-ACMoreResponseButton.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DED3DEEEC0738E5AE38DAFF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC124F0FDE7496B12E52B54E /* libPods-ACMoreResponseButton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F486EE5223681FA700F11CE5 = {
+			isa = PBXGroup;
+			children = (
+				F486EE5D23681FA700F11CE5 /* ACMoreResponseButton */,
+				F486EE7923681FA800F11CE5 /* ACMoreResponseButtonTests */,
+				F486EE8423681FA800F11CE5 /* ACMoreResponseButtonUITests */,
+				F486EE5C23681FA700F11CE5 /* Products */,
+				3BC539F57FCFE7FD935B065C /* Pods */,
+				DED3DEEEC0738E5AE38DAFF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F486EE5C23681FA700F11CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F486EE5B23681FA700F11CE5 /* ACMoreResponseButton.app */,
+				F486EE7623681FA800F11CE5 /* ACMoreResponseButtonTests.xctest */,
+				F486EE8123681FA800F11CE5 /* ACMoreResponseButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F486EE5D23681FA700F11CE5 /* ACMoreResponseButton */ = {
+			isa = PBXGroup;
+			children = (
+				F486EE5E23681FA700F11CE5 /* AppDelegate.h */,
+				F486EE5F23681FA700F11CE5 /* AppDelegate.m */,
+				F486EE6123681FA700F11CE5 /* SceneDelegate.h */,
+				F486EE6223681FA700F11CE5 /* SceneDelegate.m */,
+				F486EE6423681FA700F11CE5 /* ViewController.h */,
+				F486EE6523681FA700F11CE5 /* ViewController.m */,
+				F486EE6723681FA700F11CE5 /* Main.storyboard */,
+				F486EE6A23681FA800F11CE5 /* Assets.xcassets */,
+				F486EE6C23681FA800F11CE5 /* LaunchScreen.storyboard */,
+				F486EE6F23681FA800F11CE5 /* Info.plist */,
+				F486EE7023681FA800F11CE5 /* main.m */,
+			);
+			path = ACMoreResponseButton;
+			sourceTree = "<group>";
+		};
+		F486EE7923681FA800F11CE5 /* ACMoreResponseButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F486EE7A23681FA800F11CE5 /* ACMoreResponseButtonTests.m */,
+				F486EE7C23681FA800F11CE5 /* Info.plist */,
+			);
+			path = ACMoreResponseButtonTests;
+			sourceTree = "<group>";
+		};
+		F486EE8423681FA800F11CE5 /* ACMoreResponseButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F486EE8523681FA800F11CE5 /* ACMoreResponseButtonUITests.m */,
+				F486EE8723681FA800F11CE5 /* Info.plist */,
+			);
+			path = ACMoreResponseButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F486EE5A23681FA700F11CE5 /* ACMoreResponseButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F486EE8A23681FA800F11CE5 /* Build configuration list for PBXNativeTarget "ACMoreResponseButton" */;
+			buildPhases = (
+				7C46914D0DC56736B40D138B /* [CP] Check Pods Manifest.lock */,
+				F486EE5723681FA700F11CE5 /* Sources */,
+				F486EE5823681FA700F11CE5 /* Frameworks */,
+				F486EE5923681FA700F11CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACMoreResponseButton;
+			productName = ACMoreResponseButton;
+			productReference = F486EE5B23681FA700F11CE5 /* ACMoreResponseButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F486EE7523681FA800F11CE5 /* ACMoreResponseButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F486EE8D23681FA800F11CE5 /* Build configuration list for PBXNativeTarget "ACMoreResponseButtonTests" */;
+			buildPhases = (
+				F486EE7223681FA800F11CE5 /* Sources */,
+				F486EE7323681FA800F11CE5 /* Frameworks */,
+				F486EE7423681FA800F11CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F486EE7823681FA800F11CE5 /* PBXTargetDependency */,
+			);
+			name = ACMoreResponseButtonTests;
+			productName = ACMoreResponseButtonTests;
+			productReference = F486EE7623681FA800F11CE5 /* ACMoreResponseButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F486EE8023681FA800F11CE5 /* ACMoreResponseButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F486EE9023681FA800F11CE5 /* Build configuration list for PBXNativeTarget "ACMoreResponseButtonUITests" */;
+			buildPhases = (
+				F486EE7D23681FA800F11CE5 /* Sources */,
+				F486EE7E23681FA800F11CE5 /* Frameworks */,
+				F486EE7F23681FA800F11CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F486EE8323681FA800F11CE5 /* PBXTargetDependency */,
+			);
+			name = ACMoreResponseButtonUITests;
+			productName = ACMoreResponseButtonUITests;
+			productReference = F486EE8123681FA800F11CE5 /* ACMoreResponseButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F486EE5323681FA700F11CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "李珺";
+				TargetAttributes = {
+					F486EE5A23681FA700F11CE5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F486EE7523681FA800F11CE5 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F486EE5A23681FA700F11CE5;
+					};
+					F486EE8023681FA800F11CE5 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F486EE5A23681FA700F11CE5;
+					};
+				};
+			};
+			buildConfigurationList = F486EE5623681FA700F11CE5 /* Build configuration list for PBXProject "ACMoreResponseButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F486EE5223681FA700F11CE5;
+			productRefGroup = F486EE5C23681FA700F11CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F486EE5A23681FA700F11CE5 /* ACMoreResponseButton */,
+				F486EE7523681FA800F11CE5 /* ACMoreResponseButtonTests */,
+				F486EE8023681FA800F11CE5 /* ACMoreResponseButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F486EE5923681FA700F11CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F486EE6E23681FA800F11CE5 /* LaunchScreen.storyboard in Resources */,
+				F486EE6B23681FA800F11CE5 /* Assets.xcassets in Resources */,
+				F486EE6923681FA700F11CE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486EE7423681FA800F11CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486EE7F23681FA800F11CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C46914D0DC56736B40D138B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACMoreResponseButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F486EE5723681FA700F11CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F486EE6623681FA700F11CE5 /* ViewController.m in Sources */,
+				F486EE6023681FA700F11CE5 /* AppDelegate.m in Sources */,
+				F486EE7123681FA800F11CE5 /* main.m in Sources */,
+				F486EE6323681FA700F11CE5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486EE7223681FA800F11CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F486EE7B23681FA800F11CE5 /* ACMoreResponseButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486EE7D23681FA800F11CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F486EE8623681FA800F11CE5 /* ACMoreResponseButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F486EE7823681FA800F11CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F486EE5A23681FA700F11CE5 /* ACMoreResponseButton */;
+			targetProxy = F486EE7723681FA800F11CE5 /* PBXContainerItemProxy */;
+		};
+		F486EE8323681FA800F11CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F486EE5A23681FA700F11CE5 /* ACMoreResponseButton */;
+			targetProxy = F486EE8223681FA800F11CE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F486EE6723681FA700F11CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F486EE6823681FA700F11CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F486EE6C23681FA800F11CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F486EE6D23681FA800F11CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F486EE8823681FA800F11CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F486EE8923681FA800F11CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F486EE8B23681FA800F11CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F4CDC1E955668F1A491F962 /* Pods-ACMoreResponseButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ACMoreResponseButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lijun77.ACMoreResponseButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F486EE8C23681FA800F11CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B19990E6D1DE2BCA67EC425 /* Pods-ACMoreResponseButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ACMoreResponseButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lijun77.ACMoreResponseButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F486EE8E23681FA800F11CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ACMoreResponseButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lijun77.ACMoreResponseButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACMoreResponseButton.app/ACMoreResponseButton";
+			};
+			name = Debug;
+		};
+		F486EE8F23681FA800F11CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ACMoreResponseButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lijun77.ACMoreResponseButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACMoreResponseButton.app/ACMoreResponseButton";
+			};
+			name = Release;
+		};
+		F486EE9123681FA800F11CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ACMoreResponseButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lijun77.ACMoreResponseButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ACMoreResponseButton;
+			};
+			name = Debug;
+		};
+		F486EE9223681FA800F11CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ACMoreResponseButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lijun77.ACMoreResponseButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ACMoreResponseButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F486EE5623681FA700F11CE5 /* Build configuration list for PBXProject "ACMoreResponseButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F486EE8823681FA800F11CE5 /* Debug */,
+				F486EE8923681FA800F11CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F486EE8A23681FA800F11CE5 /* Build configuration list for PBXNativeTarget "ACMoreResponseButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F486EE8B23681FA800F11CE5 /* Debug */,
+				F486EE8C23681FA800F11CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F486EE8D23681FA800F11CE5 /* Build configuration list for PBXNativeTarget "ACMoreResponseButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F486EE8E23681FA800F11CE5 /* Debug */,
+				F486EE8F23681FA800F11CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F486EE9023681FA800F11CE5 /* Build configuration list for PBXNativeTarget "ACMoreResponseButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F486EE9123681FA800F11CE5 /* Debug */,
+				F486EE9223681FA800F11CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F486EE5323681FA700F11CE5 /* Project object */;
+}

@@ -1,0 +1,8 @@
+
+
+
+platform :ios, '13.0'
+
+target 'ACMoreResponseButton' do
+  pod 'AFNetworking', '~> 3.0'
+end
